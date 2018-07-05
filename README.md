@@ -4,21 +4,12 @@
 
 ## 简介
 
-- 
-
-
-
-## 来源
-
-[](http)
-
-格式：
-
-```
-```
+- 定时查询，默认十五分钟查询一次。
+- 支持根据运单号自动判断快递公司。
+- try...catch...end模块容错。
+- 亦可更改部分代码实现自动推送至Telegram。
 
 ## 设置方法
-
 
 #### 推送准备
 
@@ -26,6 +17,10 @@
 
 创建通道，MATLAB脚本中要用到通道的sendkey。
 
+#### TrackingMore API准备
+
+付费API，付费账户可拿到API key。
+
 ## 后记
 
-Inspired by []()
+Inspired by [少数派：利用 IFTTT Maker DIY 你的 Applet](https://sspai.com/post/39243)
